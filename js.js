@@ -61,7 +61,7 @@ function round(){
   }
   else if(playerChoice=="scissor"&&compChoice=="paper"){
     
-    return `win player with ${playerChoice}`
+    return `Win Player With ${playerChoice}`
 
   }
   else if(playerChoice==compChoice){
@@ -69,7 +69,21 @@ function round(){
     return `PAreggio`
 
   }
-}
-playerplay();
+}function game(){
+  playerplay();
 
-console.log(playerChoice);
+console.log("il giocatore gioca : " ,playerChoice);
+
+computerPlay();
+console.log("il computer gioca : ",compChoice);
+round();
+console.log(round());
+}
+
+
+i=9;
+function incrementI(i) {
+  i = i + 1;
+  return i;
+}
+console.log(incrementI(8));
