@@ -1,0 +1,13 @@
+.pop{
+    background-color: aqua;
+  border: red solid ;
+  height: 500px;
+  width: 100%;
+  z-index: 400;
+  position: absolute;
+    
+}
+.none{
+    display: none;
+    
+}
